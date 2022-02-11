@@ -1,0 +1,20 @@
+
+#results {
+
+
+position:absolute;
+top: 200px;
+left: 500px;
+border:solid;
+border-radius: 50%;
+width:300;
+height:150;
+zIndex:0;
+background-color:skyblue;
+padding:70;
+font: 44px Georgia, Serif;
+}
+
+
+
+

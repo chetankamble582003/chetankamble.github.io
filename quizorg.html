@@ -1,0 +1,304 @@
+<html>
+<head>
+<title> EXPERIMENT2</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel|Fauna+One">
+<style type="text/css">
+
+    body
+    {
+        font-family: 'Fauna One', serif;
+        font-size: 16px;  
+    }
+    input
+		{
+			border-radius:5px;
+		}
+
+.button {
+  background-color: #51a6df; 
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width:100%;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19)
+}
+.h1
+{
+position:absolute;
+top:195;
+left:500;
+border:solid;
+border-radius: 30px;
+width:500;
+height:270;
+zIndex:0;
+background-color:rgb(71, 255, 15);
+padding:70;	
+text-align: center;
+font-size: 40px;
+}
+.s1
+{
+position:absolute;
+top:230;
+left:500;
+border:solid;
+border-radius: 30px;
+width:500;
+height:270;
+zIndex:0;
+background-color:skyblue;
+padding:70;	
+}
+
+.s2
+{
+
+position:absolute;
+top:230;
+left:500;
+border:solid;
+border-radius: 30px;
+width:500;
+height:270;
+zIndex:0;
+background-color:yellow;
+padding:70;
+}
+
+.s3
+{
+
+position:absolute;
+top:230;
+left:500;
+border:solid;
+border-radius: 30px;
+width:500;
+height:270;
+zIndex:0;
+background-color:orange;
+padding:70;
+}
+
+.s4
+{
+
+position:absolute;
+top:230;
+left:500;
+border:solid;
+border-radius: 30px;
+width:500;
+height:270;
+zIndex:0;
+background-color:pink;
+padding:70;
+}
+
+.s5
+{
+
+position:absolute;
+top:230;
+left:500;
+border:solid;
+border-radius: 30px;
+width:500;
+height:270;
+zIndex:0;
+background-color:rgb(119, 255, 192);
+padding:70;
+}
+</style>
+
+<script type="text/Javascript">
+
+
+
+var top="a1";
+function f(newtop)
+{
+var a=document.getElementById(top).style;
+var b=document.getElementById(newtop).style;
+a.zIndex="0";
+b.zIndex="5";
+
+top=newtop;
+}
+
+
+
+</script>
+</head>
+
+<body>
+    
+   
+    <form action="result.php" method="post" id="quiz">
+
+    
+            
+        <li class="s1" id="a2"> <b>question-1</b>
+        
+          <h3> WordPress is a......</h3>
+            
+            <div>
+                <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+                <label for="question-1-answers-A">A) Software </label>
+            </div>
+            
+            <div>
+                <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+                <label for="question-1-answers-B">B) Web App</label>
+            </div>
+            
+            <div>
+                <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
+                <label for="question-1-answers-C">C) CMS</label>
+            </div>
+            
+            <div>
+                <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
+                <label for="question-1-answers-D">D) Other</label>
+            </div>
+            <br><br>
+            <input type="button" class="button" value="next" id="submit" onclick=f("a3")>
+        </li>
+  
+
+
+
+
+
+
+    <li class="s2" id="a3">  <b>question-2</b>
+                
+        <h3>SEO is Part Of...</h3>
+        
+        <div>
+            <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
+            <label for="question-2-answers-A">A) Video Editing</label>
+        </div>
+        
+        <div>
+            <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
+            <label for="question-2-answers-B">B) Graphic Designing</label>
+        </div>
+        
+        <div>
+            <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
+            <label for="question-2-answers-C">C) Web Designing</label>
+        </div>
+        
+        <div>
+            <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
+            <label for="question-2-answers-D">D) Digital Marketing</label>
+        </div>
+        <br><br>
+        <input type="button" class="button" value="next" id="submit" onclick=f("a4")>
+    </li>
+
+
+    <li class="s3" id="a4" > <b>question-3</b>
+                
+        <h3>PHP is a....</h3>
+        
+        <div>
+            <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
+            <label for="question-3-answers-A">A) Server Side Script</label>
+        </div>
+        
+        <div>
+            <input type="radio" name="question-3-answers" id="question-3-answers-B" value="B" />
+            <label for="question-3-answers-B">B) Programming Language</label>
+        </div>
+        
+        <div>
+            <input type="radio" name="question-3-answers" id="question-3-answers-C" value="C" />
+            <label for="question-3-answers-C">C) Markup Language</label>
+        </div>
+        
+        <div>
+            <input type="radio" name="question-3-answers" id="question-3-answers-D" value="D" />
+            <label for="question-3-answers-D">D) None Of Above These</label>
+        </div>
+        <br><br>
+    <input type="button" class="button" value="next" id="submit" onclick=f("a5")>
+    </li>
+
+    <li class="s4" id="a5"> <b>question-4</b>
+                
+        <h3>Localhost IP is..</h3>
+        
+        <div>
+            <input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" />
+            <label for="question-4-answers-A">A) 192.168.0.1</label>
+        </div>
+        
+        <div>
+            <input type="radio" name="question-4-answers" id="question-4-answers-B" value="B" />
+            <label for="question-4-answers-B">B) 127.0.0.0</label>
+        </div>
+        
+        <div>
+            <input type="radio" name="question-4-answers" id="question-4-answers-C" value="C" />
+            <label for="question-4-answers-C">C) 1080:80</label>
+        </div>
+        
+        <div>
+            <input type="radio" name="question-4-answers" id="question-4-answers-D" value="D" />
+            <label for="question-4-answers-D">D) Any Other</label>
+        </div>
+        <br><br>
+        <input type="button" class="button" value="next" id="submit" onclick=f("a6")>
+    
+    </li>
+
+    <li class="s5" id="a6" >  <b>question-5</b>
+                
+        <h3>Webdevtrick Is For</h3>
+        
+        <div>
+            <input type="radio" name="question-5-answers" id="question-5-answers-A" value="A" />
+            <label for="question-5-answers-A">A) Web Designer</label>
+        </div>
+        
+        <div>
+            <input type="radio" name="question-5-answers" id="question-5-answers-B" value="B" />
+            <label for="question-5-answers-B">B) Web Developer</label>
+        </div>
+        
+        <div>
+            <input type="radio" name="question-5-answers" id="question-5-answers-C" value="C" />
+            <label for="question-5-answers-C">C) Graphic Designer</label>
+        </div>
+        
+        <div>
+            <input type="radio" name="question-5-answers" id="question-5-answers-D" value="D" />
+            <label for="question-5-answers-D">D) All Above These</label>
+        </div>
+        <br><br>
+        <input type="submit" class="button" value="submit" id="submit" onclick=f("a1")>
+    </li>
+
+
+  
+<p class="h1"  id="a1">
+
+    Welcome to Quiz Game<br><br><br>
+ 
+     <input type="button" class="button"  value="Start quiz" id="Start quiz" onclick=f("a2")>
+  
+ </p> 
+
+</form> 
+
+</body>
+</html>
